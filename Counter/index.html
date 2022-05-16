@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	    <meta charset="UTF-8">
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="index.js"></script>
+	    <title>Counter</title>
+	</head>
+	
+	<body>
+		<div class="grid place-items-center">
+			<div class="px3 bg-white-500 text-gray-600 text-5xl font-semibold mb-5">
+				Counter
+			</div>
+			<div class="px-3 bg-white-500 text-orange-500 text-7xl mb-5" id="counter">
+				0
+			</div>
+			<div class="flex space-x-9">
+				<button class="px-3 bg-white-500 rounded border-2 border-red-500" onclick="Decrease()">
+					Decrease
+				</button>
+				<button class="px-3 bg-white-500 rounded border-2 border-cyan-500" onclick="Reset()">
+					Reset
+				</button>
+				<button class="px-3 bg-white-500 rounded border-2 border-blue-500" onclick="Increase()">
+					Increase
+				</button>
+			</div>
+		</div>
+	</body>
+
+</html>

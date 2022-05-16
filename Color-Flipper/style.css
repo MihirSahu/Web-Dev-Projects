@@ -1,0 +1,17 @@
+.header {
+	background-color: white;
+	padding-right: 50%;
+	padding-left: 50%;
+}
+
+.color_display {
+	background-color: black;
+	height: 100px;
+	width: 500px;
+}
+
+.color_button {
+	background-color: red;
+	border-style: solid;
+	margin-top: 10px;
+}
